@@ -1,0 +1,6 @@
+brand,model,production_year,mileage,price,fuel_type
+TOYOTA,Prius C,2013,0,13172.0,Hybrid
+TOYOTA,Prius,2012,0,13485.0,Hybrid
+TOYOTA,Prius,2011,0,5175.0,Hybrid
+HYUNDAI,Sonata,2013,0,18817.0,Hybrid
+Honda,Fred,2018,0,16000.0,Hybrid
