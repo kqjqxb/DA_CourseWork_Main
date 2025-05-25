@@ -86,3 +86,18 @@ SELECT
     COUNT(*) AS total_rows,
     SUM(CASE WHEN mileage IS NULL THEN 1 ELSE 0 END) AS null_mileage
 FROM main.dim_additional_info;
+
+
+
+-- ALTER TABLE main.fact_car_prices
+-- DROP COLUMN car_prediction2_id;
+--
+-- ALTER TABLE main.fact_car_prices
+-- DROP COLUMN car_prediction3_id;
+
+
+-- ALTER TABLE main.fact_car_prices
+-- ADD COLUMN car_prediction2_id INTEGER;
+--
+-- ALTER TABLE main.fact_car_prices
+-- ADD COLUMN car_prediction3_id INTEGER;
