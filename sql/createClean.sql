@@ -1,4 +1,4 @@
--- Очищення main-зони для повторного запуску (опціонально)
+-- Очищення main-зони для повторного запуску
 TRUNCATE TABLE main.fact_locations, main.fact_leather_interior, main.fact_car_prices, main.dim_additional_info, main.dim_transmissions, main.dim_fuel_types, main.dim_brands, main.dim_year RESTART IDENTITY CASCADE;
 
 -- Заповнення dim_brands
